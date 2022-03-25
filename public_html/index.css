@@ -1,0 +1,266 @@
+/*
+ CSc 337 Final project Fall 2021
+  Filename: index.css
+  Author: Muhtasim Al-Farabi, Shyambhavi
+  Purpose: This document contains necessary css for all of the html pages of
+  our webapp. 
+*/
+
+body{
+  background-image: linear-gradient(to right, #fde7d8 , #dbafa2);
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+#navBar{
+  padding:1%;
+
+  text-align: center;
+}
+
+#shoppingCart{
+  position: fixed;
+  left: 1%;
+  top:1%;
+  width: 3%;
+
+}
+
+
+#freelanceSign{
+  position: relative;
+  left:2%;
+  top: 2%;
+  color: #060d1f;
+  text-decoration: none;
+}
+
+.Button{
+
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+
+  transition-duration: 0.4s;
+
+  background-color: #dbafa2;
+  color: black;
+  border: 2px solid #9a6b5b;
+  border-radius: 25px;
+
+}
+.Button:hover {
+  background-color: #9a6b5b;
+  color: white;
+}
+
+
+#loginButton{
+  position: relative;
+  left:30%;
+
+}
+
+
+
+#topDiv{
+  padding: 5%;
+
+}
+
+h1{
+  font-family: 'Scope One', serif;
+  font-size: 7rem;
+}
+
+h2{
+  font-family: 'Scope One', serif;
+  font-size: 4rem;
+}
+
+h3{
+  font-family: 'Scope One', serif;
+  font-size: 3rem;
+  margin: 0;
+  display: inline-block;
+}
+
+#heading{
+  position: relative;
+  display: inline-block;
+  bottom: 20rem;
+  left: 2rem;
+
+}
+
+#serviceImg{
+  position: relative;
+  left:15%;
+  width:30%;
+  border-radius: 25px;
+
+  transform: rotate(-10deg);
+
+
+}
+
+#browseButton{
+  text-decoration: none;
+  position: relative;
+  top:-4rem;
+  display: block;
+}
+
+#AboutUsDiv{
+  padding: 5% 20%;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+#SearchDiv{
+
+  text-align: center;
+
+
+}
+
+.searchBar{
+  border-radius: 20px;
+  font-size: 2rem;
+  padding:0.5% 2%;
+  border: none;
+  margin-right: 5%;
+  background-color: #dbafa2;
+}
+
+#searchServiceBar{
+  width: 40%;
+
+}
+#searchResults{
+  display: flex;
+  text-align: left;
+  padding: 0 5%;
+  flex-wrap: wrap;
+
+
+
+
+}
+
+.search{
+    padding: 5% 7%;
+    flex: 0 1 30%;
+    background-color: #edd2c8;
+    margin: 2%;
+    line-height: 2.5rem;
+    font-family: 'Scope One', serif;
+    font-size: 1.3rem;
+    border-radius: 25px;
+
+
+}
+#loginDiv{
+  font-size: 1.5rem;
+}
+
+#SignUpDiv{
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 15%;
+
+}
+
+.signUpBar{
+  position: absolute;
+  left: 50%;
+}
+
+.UploadPhoto{
+  position: absolute;
+  left: 80%;
+}
+.InfoDivs{
+  background-color: white;
+  border-radius: 25px;
+}
+
+#logoutButton{
+  position: fixed;
+  right:5%;
+}
+
+#editInfo{
+  position: fixed;
+  bottom:3%;
+  right:5%;
+
+}
+
+#viewInfoButton{
+  position: fixed;
+  bottom:11%;
+  right:5%;
+
+}
+
+#welcomeDiv{
+
+  text-align: right;
+  position: fixed;
+  width: 33%;
+  right:0%;
+  padding: 5% 3%;
+}
+#flowersDiv{
+  position: fixed;
+  width:30%;
+  height: 100%;
+  left:0%;
+
+}
+
+#flowerImg{
+  width:80%;
+  margin-top: 30%;
+  border-radius: 30px;
+}
+
+#saveChanges{
+  position: fixed;
+  bottom:3%;
+  left:5%;
+}
+.editBar{
+  margin: 7%;
+}
+.InfoDivs{
+
+  position: relative;
+  width:33%;
+  left:35%;
+  margin: 2% ;
+  color: #9a6b5b;
+  font-size: 2rem;
+}
+
+.WelcomeIcons{
+  top:8%;
+  left:4%;
+  position: absolute;
+  width: 15%;
+}
+.PencilIcons{
+  width:10%;
+  left:87%;
+}
+
+h6{
+  margin: 0;
+  margin-bottom: 8%;
+  display: inline-block;
+}

@@ -1,0 +1,84 @@
+<!--
+  CSc 337 Final project Fall 2021
+  Filename: index.html
+  Author: Muhtasim Al-Farabi, Shyambhavi
+  Purpose: This document contains necessary html for the home page of
+  our webapp.
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="client.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- fonts -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <title>LocalBizz</title>
+  </head>
+  <body>
+    <div id="navBar">
+      <a href="index.html"><img id="shoppingCart" src="./images/shopping-cart.png" alt=""></a>
+
+      <a href="signup.html" id="freelanceSign">Sign Up as a Freelancer</a>
+
+      <button id="loginButton" onclick="location.href='login.html'" class="Button" type="button" name="button">Login</button>
+
+
+
+    </div>
+
+    <div id="topDiv">
+      <h1 id="heading">localbizz</h1>
+      <img id="serviceImg" src="./images/try.jpg" alt="">
+      <button id="browseButton" onclick="location.href='#SearchDiv'" class="Button" type="button" name="button">Browse Local services</button>
+
+
+    </div>
+
+    <div id="AboutUsDiv">
+      <h2>About Us</h2>
+      The main purpose of LocalBizz is to provide a platform to Freelancers
+      to offer services to people. Freelancers can create their profiles on
+      LocalBizz and we also give the option to edit the information later. The
+      customers can search up freelancers by the name of the service, name of the
+      category, or by description.
+      The customers can contact freelancers through the contact
+      information provided by them.
+
+    </div>
+
+    <div id="SearchDiv">
+      <h2>Search through Local Services</h2>
+      <img src="./images/search.png" alt="">
+      <br>
+      <br>
+
+      <br>
+      <br>
+
+      <input id="searchServiceBar" class="searchBar" type="text" name="search" placeholder="Search for Services">
+      <a href="#searchResults"><button id="searchButton" class="Button" type="submit" name="button" onclick="searchServices()">Search</button></a>
+      <br>
+      <br>
+
+      <br>
+      <br>
+
+      <div id="searchResults">
+
+
+      </div>
+
+
+
+    </div>
+
+  </body>
+</html>

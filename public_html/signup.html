@@ -1,0 +1,112 @@
+<!--
+  CSc 337 Final project Fall 2021
+  Filename: signup.html
+  Author: Muhtasim Al-Farabi, Shyambhavi
+  Purpose: This document contains necessary html for the signup page of
+  our webapp.
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <script src="client.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <title>Sign Up</title>
+  </head>
+  <body>
+
+
+    <div id="navBar">
+      <a href="index.html"><img id="shoppingCart" src="./images/shopping-cart.png" alt=""></a>
+
+      <a href="/signup.html" id="freelanceSign">Sign Up as a Freelancer</a>
+
+      <button id="loginButton" onclick="location.href='login.html'" class="Button" type="button" name="button">Login</button>
+
+    </div>
+
+    <h1>localbizz</h1>
+    <h2>Sign Up</h2>
+
+    <div id="SignUpDiv">
+      Enter Your Name:
+      <input class="searchBar signUpBar" id="pName"
+      type="text" name="searchbar" value="" required>
+      <br>
+      <br>
+      Name of the Service:
+      <input class="searchBar signUpBar" id="name"
+      type="text" name="searchbar" value="" required>
+      <br>
+      <br>
+
+      <label for="serviceCategory">Choose a Category for your Service:</label>
+      <select class="searchBar signUpBar" name="serviceCategory" id="serviceCategory" required>
+        <option value="">&nbsp;</option>
+        <option value="IT & Development">IT & Development</option>
+        <option value="Design & Creative">Design & Creative</option>
+        <option value="Sales & Marketing">Sales & Marketing</option>
+        <option value="Writing & Translation">Writing & Translation</option>
+        <option value="Admin & Customer Support">Admin & Customer Support</option>
+        <option value="Finance">Finance</option>
+        <option value="Legal">Legal</option>
+        <option value="Engineering & Architecture">Engineering & Architecture</option>
+        <option value="Home Services">Home Services</option>
+        <option value="Education">Education</option>
+        <option value="Other">Other</option>
+      </select>
+      <br><br>
+
+      Describe Your Service:
+      <input class="searchBar signUpBar" type="text" id = "bio"
+      name="searchbar" value="" required>
+      <br>
+      <br>
+
+      Price of the Service ($/hr):
+      <input class="searchBar signUpBar" type="number" id = "price"
+      name="searchbar" value="" required>
+      <br>
+      <br>
+
+
+      Contact Information (Email):
+      <input class="searchBar signUpBar" type="email" id = "email"
+      name="searchbar" value="" required>
+      <br>
+      <br>
+
+      Username:
+      <input class="searchBar signUpBar" id="usernameCreate"
+      type="text" name="searchbar" value="" required>
+      <br>
+      <br>
+
+      Password:
+      <input class="searchBar signUpBar" id="passwordCreate"
+      type="password" name="searchbar" value="" required>
+      <br>
+      <br>
+
+
+
+
+    </div>
+
+      <button class="Button" onclick = "createAccount();"
+      type="submit" name="button">Sign Up</button>
+
+  </body>
+</html>

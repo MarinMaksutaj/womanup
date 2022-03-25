@@ -1,0 +1,61 @@
+<!--
+  CSc 337 Final project Fall 2021
+  Filename: login.html
+  Author: Muhtasim Al-Farabi, Shyambhavi
+  Purpose: This document contains necessary html for the login page of
+  our webapp.
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="client.js"></script>
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <title>Log In</title>
+  </head>
+  <body>
+
+
+
+    <div id="navBar">
+      <a href="index.html"><img id="shoppingCart" src="./images/shopping-cart.png" alt=""></a>
+
+      <a href="signup.html" id="freelanceSign">Sign Up as a Freelancer</a>
+      <button id="loginButton" onclick="location.href='signup.html'" class="Button" type="button" name="button">Sign up</button>
+
+
+
+    </div>
+
+    <h1>localbizz</h1>
+    <h2>Login</h2>
+
+    <div id="loginDiv">
+      Username:
+      <input class="searchBar" type="text"
+      id="usernameLogin" name="searchbar1" value="">
+      <br>
+      <br>
+      Password:
+      <input class="searchBar" id= "passwordLogin"
+      type="password" name="searchbar2" value="">
+      <br>
+      <br>
+      <button class="Button" type="submit"
+      onclick = "login();edit();" name="button">Login</button>
+
+    </div>
+
+  </body>
+</html>
