@@ -137,7 +137,7 @@ function logout() {
       resultsString+="Freelancer Name: "+personName+"<br>";
       resultsString+="Service Category: "+serviceType+"<br>";
       resultsString+="Description: "+description+"<br>";
-      resultsString+="Contact: <a href=mailto:"+contact+">"+ contact+"</a><br>";
+      resultsString+="Contact: <a href="+"contact.html"+">"+ contact+"</a><br>";
       resultsString+="Price($/hr): "+price+"<br></div>";
     }
 

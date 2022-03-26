@@ -273,3 +273,55 @@ h6{
   margin-bottom: 8%;
   display: inline-block;
 }
+
+#ContactsDiv{
+
+  text-align: center;
+
+
+}
+
+.contactInputs{
+  border-radius: 25px;
+  font-size: 2rem;
+  padding:0.5% 2%;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #dd8dfd;
+  color: #520f7e;
+}
+
+#NameInput{
+  width: 30%;
+
+}
+
+#emailInput{
+  width: 30%;
+}
+
+#messageInput{
+  width: 30%;
+}
+
+#ContactUsDiv{
+  padding-top: 90px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+#SubmissionDiv{
+  padding-top: 90px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+#submitContact{
+  display: inline;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
