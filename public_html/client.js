@@ -11,7 +11,7 @@
  * is clicked. It sends the username in the url.
  */
 
-function edit() {
+ function edit() {
   var httpRequest = new XMLHttpRequest();
   httpRequest.onreadystatechange = () => {
     if (httpRequest.readyState == XMLHttpRequest.DONE) {
@@ -137,7 +137,7 @@ function logout() {
       resultsString+="Freelancer Name: "+personName+"<br>";
       resultsString+="Service Category: "+serviceType+"<br>";
       resultsString+="Description: "+description+"<br>";
-      resultsString+="Contact: <a href=mailto:"+contact+">"+ contact+"</a><br>";
+      resultsString+="Contact: <a href="+"contact.html"+">"+ contact+"</a><br>";
       resultsString+="Price($/hr): "+price+"<br></div>";
     }
 
