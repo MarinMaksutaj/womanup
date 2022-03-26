@@ -7,11 +7,12 @@
 */
 
 body{
-  background-image: linear-gradient(to right, #fde7d8 , #dbafa2);
+  background-image: linear-gradient(to right, #cf79fd , #ecb4fb);
   padding: 0;
   margin:0;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  color:#520f7e;
 
 }
 #navBar{
@@ -47,14 +48,14 @@ body{
 
   transition-duration: 0.4s;
 
-  background-color: #dbafa2;
+  background-color: #ecb4fb;
   color: black;
-  border: 2px solid #9a6b5b;
+  border: 2px solid #520f7e;
   border-radius: 25px;
 
 }
 .Button:hover {
-  background-color: #9a6b5b;
+  background-color: #520f7e;
   color: white;
 }
 
@@ -68,7 +69,10 @@ body{
 
 
 #topDiv{
-  padding: 5%;
+  padding: 15%;
+  background-image: url(./images/try.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 
 }
 
@@ -92,8 +96,7 @@ h3{
 #heading{
   position: relative;
   display: inline-block;
-  bottom: 20rem;
-  left: 2rem;
+  left: 35%;
 
 }
 
@@ -111,7 +114,8 @@ h3{
 #browseButton{
   text-decoration: none;
   position: relative;
-  top:-4rem;
+  left: 90%;
+  top: 95%;
   display: block;
 }
 
@@ -128,13 +132,18 @@ h3{
 
 }
 
+#SearchImg{
+  width:20%;
+}
+
 .searchBar{
   border-radius: 20px;
   font-size: 2rem;
   padding:0.5% 2%;
   border: none;
   margin-right: 5%;
-  background-color: #dbafa2;
+  background-color: #dd8dfd;
+  color: #520f7e;
 }
 
 #searchServiceBar{
@@ -185,7 +194,7 @@ h3{
   left: 80%;
 }
 .InfoDivs{
-  background-color: white;
+  background-color: #ecb4fb;
   border-radius: 25px;
 }
 
@@ -244,7 +253,7 @@ h3{
   width:33%;
   left:35%;
   margin: 2% ;
-  color: #9a6b5b;
+  color: #520f7e;
   font-size: 2rem;
 }
 
