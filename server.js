@@ -1,14 +1,4 @@
-/**
- * File: server.js
- * CSc 337 Final project Fall 2021
- * Authors: Muhtasim Al-Farabi, Shyambhavi
- * Purpose: This file is contains the server code for localbizz webapp.
- * It contains necessary imports, schemas, get and post requests to run
- * the app properly. All the non-trivial blocks of code have inline
- * comments to track its task
- */
 
-// importing modules
 const mongoose = require('mongoose');
 const express = require('express');
 const parser = require('body-parser')
@@ -18,7 +8,9 @@ const app = express();
 app.use(cookieParser());
 
 // authenticate and login functions
+// require the .env file
 
+require('dotenv').config();
 
 
 app.use(express.static('./public_html'));
@@ -167,7 +159,7 @@ var Freelancer = mongoose.model('Freelancer', FreelancerSchema)
 
 // mongodb code
 const db  = mongoose.connection;
-const mongoDBURL = 'mongodb://127.0.0.1/';
+const mongoDBURL = process.env.MONGODB_URL;
 mongoose.connect(mongoDBURL, { useNewUrlParser: true,
   useUnifiedTopology: true });
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
@@ -286,5 +278,5 @@ app.get('/logout/', (req, res) => {
 
 // Start the server!
 
-app.listen(80, () => { console.log('server has started'); });
+app.listen(1234, () => { console.log('server has started'); });
 //bug: doesnt show full description after creating new user
