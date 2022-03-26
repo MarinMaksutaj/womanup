@@ -1,15 +1,3 @@
-/**
- * File: client.js
- * CSc 337 Final project Fall 2021
- * Authors: Muhtasim Al-Farabi, Shyambhavi
- * Purpose: This file is contains the client code for localbizz webapp.
- * It contains all the necessary function to execute the application.
- */
-
-/**
- * This function uses an XMLHttpRequest to the server when the login button
- * is clicked. It sends the username in the url.
- */
 
  function edit() {
   var httpRequest = new XMLHttpRequest();
