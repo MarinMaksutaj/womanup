@@ -278,5 +278,5 @@ app.get('/logout/', (req, res) => {
 
 // Start the server!
 
-app.listen(1234, () => { console.log('server has started'); });
+app.listen(5000, () => { console.log('server has started'); });
 //bug: doesnt show full description after creating new user
